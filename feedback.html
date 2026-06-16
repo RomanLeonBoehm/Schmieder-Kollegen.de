@@ -87,14 +87,27 @@
       <div class="form-wrap reveal">
         <h3>Ihr Feedback</h3>
         <p>Ehrlich, konstruktiv, hilfreich.</p>
-        <form onsubmit="event.preventDefault(); alert('Danke für Ihr Feedback!');">
-          <div class="form-field"><label>Name</label><input type="text" /></div>
-          <div class="form-field"><label>E-Mail</label><input type="email" /></div>
+        <form id="feedbackForm">
+          <input type="hidden" name="access_key" value="dbc08ef8-c44c-46ab-ab23-b59890eabaa3" />
+          <input type="hidden" name="subject" value="Neues Feedback — Website" />
+          <input type="hidden" name="from_name" value="Schmieder & Kollegen Website" />
+          <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+
+          <div class="form-field"><label>Name</label><input type="text" name="Name" required /></div>
+          <div class="form-field"><label>E-Mail</label><input type="email" name="email" required /></div>
           <div class="form-field"><label>Bewertung</label>
-            <select><option>★★★★★ Sehr gut</option><option>★★★★ Gut</option><option>★★★ Okay</option><option>★★ Verbesserungsbedarf</option><option>★ Unzufrieden</option></select>
+            <select name="Bewertung">
+              <option>★★★★★ Sehr gut</option>
+              <option>★★★★ Gut</option>
+              <option>★★★ Okay</option>
+              <option>★★ Verbesserungsbedarf</option>
+              <option>★ Unzufrieden</option>
+            </select>
           </div>
-          <div class="form-field"><label>Ihre Nachricht</label><textarea></textarea></div>
+          <div class="form-field"><label>Ihre Nachricht</label><textarea name="Nachricht"></textarea></div>
           <button type="submit" class="btn btn-primary">Feedback senden</button>
+
+          <div id="feedbackStatus" style="margin-top:16px;font-size:15px;"></div>
         </form>
       </div>
     </div>
@@ -344,5 +357,43 @@
 </footer>
 
 <script src="assets/script.js"></script>
+<script>
+(function () {
+  var form = document.getElementById('feedbackForm');
+  var status = document.getElementById('feedbackStatus');
+  var btn = form.querySelector('button[type="submit"]');
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    btn.disabled = true;
+    btn.textContent = 'Wird gesendet …';
+    status.textContent = '';
+
+    try {
+      var res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      });
+      var data = await res.json();
+
+      if (data.success) {
+        status.style.color = 'green';
+        status.textContent = 'Vielen Dank für Ihr Feedback! Wir schätzen Ihre Rückmeldung sehr.';
+        form.reset();
+      } else {
+        status.style.color = '#c0392b';
+        status.textContent = 'Es ist ein Fehler aufgetreten. Bitte rufen Sie uns an: 0821 / 608130';
+      }
+    } catch (err) {
+      status.style.color = '#c0392b';
+      status.textContent = 'Verbindung fehlgeschlagen. Bitte rufen Sie uns an: 0821 / 608130';
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Feedback senden';
+    }
+  });
+})();
+</script>
 </body>
 </html>
