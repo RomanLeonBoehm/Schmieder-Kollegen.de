@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback — Schmieder & Kollegen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="top-bar-inner">
+    <div class="top-bar-left">
+      <span>Bauernbräustr. 27 · 86316 Friedberg</span>
+    </div>
+    <div class="top-bar-right">
+      <a href="tel:+498216081300">0821 / 608130</a>
+      <a href="mailto:schmieder@zuerich.de">schmieder@zuerich.de</a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <img src="image/Logo_Schmieder_Kollegen_schwarz_TRANSPARENT.png" alt="Schmieder & Kollegen" class="brand-logo" />
+    </a>
+    <nav>
+      <ul class="nav-menu">
+        <li class="has-dropdown">
+          <a href="ueber-uns.html" class="active">Über uns</a>
+          <ul class="dropdown">
+            <li><a href="ueber-uns.html">Über uns</a></li>
+            <li><a href="social-media.html">Social Media</a></li>
+            <li><a href="kanzleiraeume.html">Kanzleiräume</a></li>
+            <li><a href="ausbildung.html">Wir bilden aus!</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="firmen-industrie.html">Leistungen</a>
+          <ul class="dropdown">
+            <li><a href="firmen-industrie.html">Firmen und Industrie</a></li>
+            <li class="has-flyout">
+              <a href="privatkunden.html">Privatkunden <span class="flyout-arrow">›</span></a>
+              <ul class="flyout">
+                <li class="flyout-group">Leben</li>
+                <li><a href="altersvorsorge.html">Altersvorsorge berechnen</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        
+        <li><a href="termin.html" class="cta-nav">Termin vereinbaren</a></li>
+      </ul>
+    </nav>
+    <button class="burger" aria-label="Menü"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="page-hero-inner">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span>/</span>
+      <span>Feedback</span>
+    </div>
+    <h1 class="reveal">Ihr Feedback<br/>macht uns <em>besser.</em></h1>
+    <p class="page-hero-sub reveal">Teilen Sie uns mit, was gut lief und wo wir uns verbessern können. Ehrlich, konstruktiv, hilfreich.</p>
+  </div>
+</section>
+
+
+
+<section class="content-page">
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="section-label">Feedback</div>
+        <h2 style="font-family:'Geist',serif;font-size:clamp(32px,4vw,48px);font-weight:300;letter-spacing:-0.025em;line-height:1.1;margin-bottom:24px;">Ihre Stimme <em style="font-style:italic;color:var(--blue-accent);">zählt.</em></h2>
+        <p style="font-size:17px;color:var(--text-secondary);line-height:1.7;">Wir möchten besser werden — jeden Tag. Teilen Sie uns mit, was Ihnen gefallen hat und wo wir noch zulegen können. Ihr Feedback hilft uns, unsere Beratung weiterzuentwickeln.</p>
+      </div>
+
+      <div class="form-wrap reveal">
+        <h3>Ihr Feedback</h3>
+        <p>Ehrlich, konstruktiv, hilfreich.</p>
+        <form id="feedbackForm">
+          <input type="hidden" name="access_key" value="dbc08ef8-c44c-46ab-ab23-b59890eabaa3" />
+          <input type="hidden" name="subject" value="Neues Feedback — Website" />
+          <input type="hidden" name="from_name" value="Schmieder & Kollegen Website" />
+          <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+
+          <div class="form-field"><label>Name</label><input type="text" name="Name" required /></div>
+          <div class="form-field"><label>E-Mail</label><input type="email" name="email" required /></div>
+          <div class="form-field"><label>Bewertung</label>
+            <select name="Bewertung">
+              <option>★★★★★ Sehr gut</option>
+              <option>★★★★ Gut</option>
+              <option>★★★ Okay</option>
+              <option>★★ Verbesserungsbedarf</option>
+              <option>★ Unzufrieden</option>
+            </select>
+          </div>
+          <div class="form-field"><label>Ihre Nachricht</label><textarea name="Nachricht"></textarea></div>
+          <button type="submit" class="btn btn-primary">Feedback senden</button>
+
+          <div id="feedbackStatus" style="margin-top:16px;font-size:15px;"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Testimonials Carousel -->
+<section class="section testimonials">
+  <div class="section-inner">
+    <div class="testimonials-header reveal">
+      <div>
+        <div class="section-label">Kundenstimmen</div>
+        <h2 class="section-title">Was unsere Kunden bei <em>Google</em> sagen.</h2>
+      </div>
+      <div class="testimonials-rating reveal">
+        <div class="rating-stars">★★★★★</div>
+        <div class="rating-meta">Google Bewertungen</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonials-marquee">
+    <div class="testimonials-track">
+      <article class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Schmieder &amp; Kollegen ist eine überaus professionelle Agentur. Alle Anliegen werden umgehend bearbeitet. Schäden werden ohne unnötige Komplikationen abgewickelt — innerhalb weniger Tage. Die Mitarbeiter sind freundlich und nehmen sich Zeit, ohne einem etwas aufdrängen zu wollen. Absolute Empfehlung für alle, die Wert auf persönlichen Service legen.</p>
+        <div class="testimonial-meta">
+          <div class="testimonial-avatar">DL</div>
+          <div>
+            <div class="testimonial-name">Dome L.</div>
+            <div class="testimonial-source">Google · vor 3 Monaten</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Ich wurde von Simon Faßnacht sehr kompetent und ausführlich zur Berufsunfähigkeitsversicherung beraten. Er hat sich viel Zeit genommen, alle meine Fragen zu beantworten und mir alles verständlich erklärt. Die Beratung war professionell, freundlich und vertrauensvoll. Ich bin zufrieden und fühle mich bestens betreut.</p>
+        <div class="testimonial-meta">
+          <div class="testimonial-avatar">LI</div>
+          <div>
+            <div class="testimonial-name">Larissa Ischwang</div>
+            <div class="testimonial-source">Google · vor 6 Monaten</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Ich kann die Zurich Versicherungsagentur Schmieder &amp; Kollegen nur empfehlen! In allen Fragen rund um Versicherungen werde ich kompetent beraten. Es wird nicht nur ein Produkt vorgeschlagen, sondern Vergleiche angestellt und das geeignetste Produkt gewählt. Besonders gut: die Kontaktaufnahme über WhatsApp — die Kollegen melden sich innerhalb kurzer Zeit zurück.</p>
+        <div class="testimonial-meta">
+          <div class="testimonial-avatar">SB</div>
+          <div>
+            <div class="testimonial-name">Stephan Brandmeier-Fanger</div>
+            <div class="testimonial-source">Google Local Guide · vor 5 Monaten</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">10/10 Beratung. Bei jeder Beratung gab es eine kompetente und ausführliche Aufklärung. Kann ich nur jedem weiterempfehlen, der keine oder wenig Ahnung hat. Mein Berater war Patrik und es war echt entspannt.</p>
+        <div class="testimonial-meta">
+          <div class="testimonial-avatar">EG</div>
+          <div>
+            <div class="testimonial-name">EseyGo615</div>
+            <div class="testimonial-source">Google · vor 2 Monaten</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Super Agentur, immer freundliche Mitarbeiter. Sehr zu empfehlen.</p>
+        <div class="testimonial-meta">
+          <div class="testimonial-avatar">SB</div>
+          <div>
+            <div class="testimonial-name">Sebastian Boguslawski</div>
+            <div class="testimonial-source">Google · vor 2 Monaten</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Ich kann diese Versicherungsagentur nur wärmstens weiterempfehlen. Von Anfang an habe ich mich bestens aufgehoben gefühlt — die Beratung war kompetent, transparent und absolut kundenorientiert. Ein besonderes Lob an Herrn Sandro Schmieder: seine freundliche Art, sein Engagement und seine Fachkompetenz haben mich wirklich beeindruckt. Solch einen Service findet man heute nur noch selten.</p>
+        <div class="testimonial-meta">
+          <div class="testimonial-avatar">D</div>
+          <div>
+            <div class="testimonial-name">David</div>
+            <div class="testimonial-source">Google · vor 3 Wochen</div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Duplicate set for seamless loop -->
+      <article class="testimonial-card" aria-hidden="true">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Schmieder &amp; Kollegen ist eine überaus professionelle Agentur. Alle Anliegen werden umgehend bearbeitet. Schäden werden ohne unnötige Komplikationen abgewickelt — innerhalb weniger Tage. Die Mitarbeiter sind freundlich und nehmen sich Zeit, ohne einem etwas aufdrängen zu wollen. Absolute Empfehlung für alle, die Wert auf persönlichen Service legen.</p>
+        <div class="testimonial-meta">
+          <div class="testimonial-avatar">DL</div>
+          <div>
+            <div class="testimonial-name">Dome L.</div>
+            <div class="testimonial-source">Google · vor 3 Monaten</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" aria-hidden="true">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Ich wurde von Simon Faßnacht sehr kompetent und ausführlich zur Berufsunfähigkeitsversicherung beraten. Er hat sich viel Zeit genommen, alle meine Fragen zu beantworten und mir alles verständlich erklärt. Die Beratung war professionell, freundlich und vertrauensvoll. Ich bin zufrieden und fühle mich bestens betreut.</p>
+        <div class="testimonial-meta">
+          <div class="testimonial-avatar">LI</div>
+          <div>
+            <div class="testimonial-name">Larissa Ischwang</div>
+            <div class="testimonial-source">Google · vor 6 Monaten</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" aria-hidden="true">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Ich kann die Zurich Versicherungsagentur Schmieder &amp; Kollegen nur empfehlen! In allen Fragen rund um Versicherungen werde ich kompetent beraten. Es wird nicht nur ein Produkt vorgeschlagen, sondern Vergleiche angestellt und das geeignetste Produkt gewählt. Besonders gut: die Kontaktaufnahme über WhatsApp — die Kollegen melden sich innerhalb kurzer Zeit zurück.</p>
+        <div class="testimonial-meta">
+          <div class="testimonial-avatar">SB</div>
+          <div>
+            <div class="testimonial-name">Stephan Brandmeier-Fanger</div>
+            <div class="testimonial-source">Google Local Guide · vor 5 Monaten</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" aria-hidden="true">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">10/10 Beratung. Bei jeder Beratung gab es eine kompetente und ausführliche Aufklärung. Kann ich nur jedem weiterempfehlen, der keine oder wenig Ahnung hat. Mein Berater war Patrik und es war echt entspannt.</p>
+        <div class="testimonial-meta">
+          <div class="testimonial-avatar">EG</div>
+          <div>
+            <div class="testimonial-name">EseyGo615</div>
+            <div class="testimonial-source">Google · vor 2 Monaten</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" aria-hidden="true">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Super Agentur, immer freundliche Mitarbeiter. Sehr zu empfehlen.</p>
+        <div class="testimonial-meta">
+          <div class="testimonial-avatar">SB</div>
+          <div>
+            <div class="testimonial-name">Sebastian Boguslawski</div>
+            <div class="testimonial-source">Google · vor 2 Monaten</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="testimonial-card" aria-hidden="true">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Ich kann diese Versicherungsagentur nur wärmstens weiterempfehlen. Von Anfang an habe ich mich bestens aufgehoben gefühlt — die Beratung war kompetent, transparent und absolut kundenorientiert. Ein besonderes Lob an Herrn Sandro Schmieder: seine freundliche Art, sein Engagement und seine Fachkompetenz haben mich wirklich beeindruckt. Solch einen Service findet man heute nur noch selten.</p>
+        <div class="testimonial-meta">
+          <div class="testimonial-avatar">D</div>
+          <div>
+            <div class="testimonial-name">David</div>
+            <div class="testimonial-source">Google · vor 3 Wochen</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<section class="cta-strip">
+  <div class="cta-strip-inner reveal">
+    <h2>Wir freuen uns darauf, <em>Sie kennenzulernen.</em></h2>
+    <p>Persönlich, fair und mit Herz — vereinbaren Sie jetzt einen unverbindlichen Termin.</p>
+    <a href="termin.html" class="btn btn-primary">Termin vereinbaren</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="image/Logo_Schmieder_Kollegen_weiss_TRANSPARENT.png" alt="Schmieder & Kollegen" class="footer-logo" />
+        <p class="footer-tagline">Inhabergeführte Versicherungsagentur — persönlich, unabhängig und zuverlässig seit über 35 Jahren.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Kanzlei</h4>
+        <ul>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="kanzleiraeume.html">Kanzleiräume</a></li>
+          <li><a href="social-media.html">Social Media</a></li>
+          <li><a href="ausbildung.html">Wir bilden aus!</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Leistungen</h4>
+        <ul>
+          <li><a href="firmen-industrie.html">Firmen & Industrie</a></li>
+          <li><a href="privatkunden.html">Privatkunden</a></li>
+          <li><a href="termin.html">Termin vereinbaren</a></li>
+          <li><a href="beschwerden.html">Beschwerden</a></li>
+        </ul>
+      </div>
+         <div class="footer-col">
+        <h4>Kontakt</h4>
+        <div class="footer-contact-item" style="margin-bottom:20px;">
+          <strong>Hauptsitz</strong>
+          Bauernbräustr. 27<br/>86316 Friedberg
+        </div>
+        <div class="footer-contact-item" style="margin-bottom:20px;">
+          <strong>Telefon</strong>
+          <a href="tel:+498216081300" style="color:inherit;">0821 / 608130</a><br/>
+          Fax: 0821 / 608138
+        </div>
+        <div class="footer-contact-item" style="margin-bottom:20px;">
+          <strong>E-Mail</strong>
+          <a href="mailto:schmieder@zuerich.de" style="color:inherit;">schmieder@zuerich.de</a>
+        </div>
+        <div class="footer-contact-item">
+          <strong>Öffnungszeiten</strong>
+          Mo &amp; Di · 09:00–13:00 · 14:00–17:00<br/>
+          Mi · 09:00–13:00<br/>
+          Do · 09:00–13:00 · 14:00–17:00<br/>
+          Fr · 09:00–13:00
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-legal">
+        © <span class="year">2026</span> Schmieder & Kollegen GmbH & Co. KG ·
+        <a href="impressum.html" style="color:inherit;">Impressum</a> ·
+        <a href="datenschutz.html" style="color:inherit;">Datenschutz</a> ·
+        <a href="rechtliche-hinweise.html" style="color:inherit;">Rechtliche Hinweise</a>
+      </div>
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook">Fb</a>
+        <a href="#" aria-label="Instagram">Ig</a>
+        <a href="#" aria-label="TikTok">Tk</a>
+        <a href="#" aria-label="Tumblr">Tu</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+<script>
+(function () {
+  var form = document.getElementById('feedbackForm');
+  var status = document.getElementById('feedbackStatus');
+  var btn = form.querySelector('button[type="submit"]');
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    btn.disabled = true;
+    btn.textContent = 'Wird gesendet …';
+    status.textContent = '';
+
+    try {
+      var res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      });
+      var data = await res.json();
+
+      if (data.success) {
+        status.style.color = 'green';
+        status.textContent = 'Vielen Dank für Ihr Feedback! Wir schätzen Ihre Rückmeldung sehr.';
+        form.reset();
+      } else {
+        status.style.color = '#c0392b';
+        status.textContent = 'Es ist ein Fehler aufgetreten. Bitte rufen Sie uns an: 0821 / 608130';
+      }
+    } catch (err) {
+      status.style.color = '#c0392b';
+      status.textContent = 'Verbindung fehlgeschlagen. Bitte rufen Sie uns an: 0821 / 608130';
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Feedback senden';
+    }
+  });
+})();
+</script>
+</body>
+</html>
