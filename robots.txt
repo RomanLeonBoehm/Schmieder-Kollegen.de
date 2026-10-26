@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /Zwischenspeicher/
+Disallow: /%C3%9Cbrig%20aus%20alter%20Version/
+
+Sitemap: https://schmieder-kollegen.de/sitemap.xml
