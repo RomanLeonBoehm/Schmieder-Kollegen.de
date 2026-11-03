@@ -1,6 +1,46 @@
+# Suchmaschinen und KI-Assistenten sind ausdrücklich willkommen.
 User-agent: *
 Allow: /
 Disallow: /Zwischenspeicher/
 Disallow: /%C3%9Cbrig%20aus%20alter%20Version/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
 
 Sitemap: https://schmieder-kollegen.de/sitemap.xml

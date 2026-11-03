@@ -1,26 +1,68 @@
 # Schmieder & Kollegen GmbH & Co. KG
 
-> Versicherungsagentur der Zurich in Friedberg bei Augsburg (Bayern). Persönliche Beratung zu Versicherung, Vorsorge und Finanzen für Privat- und Firmenkunden, seit über 35 Jahren.
+> Inhabergeführte Zurich Versicherungsagentur in Friedberg bei Augsburg (Bayern) für private Haushalte und – mit besonderem Schwerpunkt – Unternehmen. Beratung zu Versicherung, Vorsorge und Finanzen, seit über 35 Jahren. 22 Mitarbeiter, 3 Standorte, Mitglied im BVK.
 
-- Adresse: Bauernbräustr. 27, 86316 Friedberg
-- Telefon: 0821 / 608130
+## Fakten
+- Name: Schmieder & Kollegen GmbH & Co. KG (Zurich Versicherungsagentur Schmieder & Kollegen)
+- Adresse Hauptsitz: Bauernbräustr. 27, 86316 Friedberg, Deutschland
+- Weitere Standorte: Langweid am Lech, Region Günzburg
+- Telefon: 0821 / 608130 · Fax: 0821 / 608138
 - E-Mail: schmieder@zuerich.de
-- Geschäftsführung: Dietmar Schmieder, Sebastian Schmieder
-- Tätigkeit: Versicherungsvertreter, Finanzanlagenvermittler (§ 34f GewO), Immobiliardarlehensvermittler (§ 34i GewO)
-- Einzugsgebiet: Friedberg, Augsburg, Langweid und Umgebung
+- Website: https://schmieder-kollegen.de/
+- Öffnungszeiten: Mo, Di, Do 09:00–13:00 und 14:00–17:00 Uhr; Mi, Fr 09:00–13:00 Uhr
+- Beratung: vor Ort in Friedberg, Langweid oder Günzburg, telefonisch oder per Video; Rückmeldung innerhalb eines Werktages
+- Geschäftsführung: Dietmar Schmieder, Sebastian Schmieder (Agenturleiter)
+- Handelsregister: Amtsgericht Augsburg, HRA 19878
+- Status: Versicherungsvertreter mit Erlaubnis nach § 34d Abs. 1 GewO; Finanzanlagenvermittler nach § 34f Abs. 1 GewO (D-F-155-QT9G-58); Immobiliardarlehensvermittler nach § 34i Abs. 1 GewO; Aufsicht: IHK für München und Oberbayern
+- Verband: Mitglied im Bundesverband Deutscher Versicherungskaufleute e.V. (BVK)
+- Einzugsgebiet: Friedberg, Augsburg, Langweid am Lech, Günzburg, Bayern; bundesweite Betreuung digital
+- Ausbildung: Ja, Ausbildungsbetrieb im Bereich Versicherung und Finanzen
+
+## Leistungen für Privatkunden
+Haftpflicht, Hausrat, Rechtsschutz, Eigenheim (Wohngebäude und Nebengebäude), E-Mobilität, Reisen, Freizeit & Sport, Vorsorge und Altersvorsorge (inkl. Rentenlücken-Rechner).
+
+## Leistungen für Firmen und Industrie
+Betriebshaftpflicht, Vermögensschadenhaftpflicht, Inhalts- und Ertragsausfallversicherung, Maschinen & Elektronik, Rechtsschutz, Transportlösungen, Flottenmanagement, kostenlose Gebäudebewertung und Auswertung des Anlagevermögens (Schutz vor Unterversicherung). Vom Handwerk bis zur Industrie.
 
 ## Seiten
-- [Startseite](https://schmieder-kollegen.de/): Schmieder & Kollegen in Friedberg bei Augsburg: persönliche Beratung zu Versicherung, Vorsorge und Finanzen für Privat- und Firmenkunden – seit über 35 Jahren.
-- [privatkunden](https://schmieder-kollegen.de/privatkunden.html): Versicherungen für Privatkunden in Friedberg und Augsburg: Haftpflicht, Hausrat, Kfz, Berufsunfähigkeit und Krankenversicherung – persönlich beraten.
-- [firmen-industrie](https://schmieder-kollegen.de/firmen-industrie.html): Versicherungsschutz für Firmen und Industrie: Betriebshaftpflicht, Inhalt, Flotte, Cyber und betriebliche Altersvorsorge – Schmieder & Kollegen, Friedberg.
-- [altersvorsorge](https://schmieder-kollegen.de/altersvorsorge.html): Altersvorsorge berechnen: Versorgungslücke ermitteln und mit Schmieder & Kollegen in Friedberg die passende Rente und Vorsorge planen.
-- [ueber-uns](https://schmieder-kollegen.de/ueber-uns.html): Über Schmieder & Kollegen: Ihr Team für Versicherung, Vorsorge und Finanzen in Friedberg bei Augsburg – unabhängig, persönlich, zuverlässig.
-- [termin](https://schmieder-kollegen.de/termin.html): Jetzt Beratungstermin bei Schmieder & Kollegen vereinbaren – vor Ort in Friedberg, telefonisch oder per Video.
-- [ausbildung](https://schmieder-kollegen.de/ausbildung.html): Ausbildung bei Schmieder & Kollegen in Friedberg: Starte deine Karriere in Versicherung und Finanzen – mit persönlicher Betreuung und echtem Teamgeist.
-- [kanzleiraeume](https://schmieder-kollegen.de/kanzleiraeume.html): Unsere Kanzleiräume in der Bauernbräustraße 27 in Friedberg – hier beraten wir Sie persönlich.
-- [news](https://schmieder-kollegen.de/news.html): Aktuelles von Schmieder & Kollegen: Neuigkeiten rund um Versicherung, Vorsorge und unsere Agentur in Friedberg.
-- [social-media](https://schmieder-kollegen.de/social-media.html): Schmieder & Kollegen auf Social Media – Einblicke, Tipps und Neuigkeiten aus unserer Agentur in Friedberg.
+- [Startseite](https://schmieder-kollegen.de/): Überblick, Leistungen, Kundenstimmen, häufige Fragen
+- [Privatkunden](https://schmieder-kollegen.de/privatkunden.html): Versicherung für Privatkunden in Friedberg: Haftpflicht, Hausrat, Rechtsschutz, Eigenheim, E-Mobilität, Reisen und Vorsorge – persönlich beraten.
+- [Firmen und Industrie](https://schmieder-kollegen.de/firmen-industrie.html): Firmenversicherung in Friedberg: Betriebshaftpflicht, Ertragsausfall, Maschinen, Transport, Flotte und kostenlose Gebäudebewertung – vom Handwerk bis zur Industrie.
+- [Altersvorsorge berechnen](https://schmieder-kollegen.de/altersvorsorge.html): Rentenlücke in 30 Sekunden berechnen und mit Schmieder & Kollegen in Friedberg eine individuelle Vorsorgestrategie erstellen – kostenlos und unverbindlich.
+- [Über uns](https://schmieder-kollegen.de/ueber-uns.html): Inhabergeführte Versicherungsagentur seit über 35 Jahren: 22 Mitarbeiter, Sitz in Friedberg bei Augsburg, Standorte in Langweid am Lech und Günzburg, BVK-Mitglied.
+- [Termin vereinbaren](https://schmieder-kollegen.de/termin.html): Unverbindlichen Beratungstermin vereinbaren – vor Ort in Friedberg, Langweid oder Günzburg, telefonisch oder per Video. Rückmeldung innerhalb eines Werktages.
+- [Ausbildung](https://schmieder-kollegen.de/ausbildung.html): Ausbildung bei Schmieder & Kollegen in Friedberg: Starte deine Karriere in Versicherung und Finanzen – mit persönlicher Betreuung und echtem Teamgeist.
+- [Kanzleiräume](https://schmieder-kollegen.de/kanzleiraeume.html): Unsere Kanzleiräume in der Bauernbräustraße 27 in Friedberg bei Augsburg – Besprechungs- und Konferenzräume für Ihre persönliche Beratung.
+- [Aktuelles](https://schmieder-kollegen.de/news.html): Aktuelles von Schmieder & Kollegen: Neuigkeiten aus dem Agenturalltag, Team-Momente und Wissenswertes rund um Versicherung und Vorsorge in Friedberg.
+- [Social Media](https://schmieder-kollegen.de/social-media.html)
+- [Feedback](https://schmieder-kollegen.de/feedback.html)
+- [Beschwerden](https://schmieder-kollegen.de/beschwerden.html)
+
+## Häufige Fragen
+### Wo finde ich Schmieder & Kollegen?
+Unser Hauptsitz ist in der Bauernbräustr. 27, 86316 Friedberg bei Augsburg. Weitere Niederlassungen haben wir in Langweid am Lech und in der Region Günzburg. Beratung ist auch telefonisch oder per Video möglich.
+
+### Wann ist die Agentur in Friedberg geöffnet?
+Montag, Dienstag und Donnerstag von 09:00 bis 13:00 Uhr und von 14:00 bis 17:00 Uhr, Mittwoch und Freitag von 09:00 bis 13:00 Uhr.
+
+### Welche Versicherungen bieten Sie für Privatkunden an?
+Wir beraten zu Haftpflicht, Hausrat, Rechtsschutz, Eigenheim (Wohngebäude und Nebengebäude), E-Mobilität, Reisen, Freizeit & Sport sowie zur Vorsorge.
+
+### Welche Lösungen gibt es für Firmen und Industrie?
+Für Unternehmen vom Handwerk bis zur Industrie bieten wir Betriebshaftpflicht, Vermögensschadenhaftpflicht, Inhalts- und Ertragsausfallversicherung, Maschinen- und Elektronikversicherung, Rechtsschutz, Transportlösungen und Flottenmanagement. Dazu gehört eine kostenlose Gebäudebewertung zum Schutz vor Unterversicherung.
+
+### Wie vereinbare ich einen Beratungstermin?
+Über das Kontaktformular auf unserer Terminseite, telefonisch unter 0821 / 608130 oder per E-Mail an schmieder@zuerich.de. Wir melden uns innerhalb eines Werktages zurück.
+
+### Welche Erlaubnisse hat Schmieder & Kollegen?
+Die Schmieder & Kollegen GmbH & Co. KG hat eine Erlaubnis nach § 34d Abs. 1 GewO als Versicherungsvertreter, nach § 34f Abs. 1 GewO als Finanzanlagenvermittler und nach § 34i Abs. 1 GewO als Immobiliardarlehensvermittler. Zuständig ist die IHK für München und Oberbayern. Wir sind Mitglied im Bundesverband Deutscher Versicherungskaufleute (BVK).
+
+### Bildet Schmieder & Kollegen aus?
+Ja. Wir bilden in Friedberg im Bereich Versicherung und Finanzen aus – mit persönlicher Betreuung im Team. Mehr dazu auf unserer Ausbildungsseite.
 
 ## Rechtliches
 - [Impressum](https://schmieder-kollegen.de/impressum.html)
 - [Datenschutz](https://schmieder-kollegen.de/datenschutz.html)
+- [Rechtliche Hinweise](https://schmieder-kollegen.de/rechtliche-hinweise.html)
+
+Hinweis: Informationen auf dieser Website dienen der allgemeinen Erstinformation und ersetzen keine individuelle Beratung.
