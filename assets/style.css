@@ -2303,3 +2303,10 @@ input[type="range"]::-moz-range-thumb:hover { background: var(--blue-accent); }
 .faq-item p { padding: 0 40px 24px 0; font-size: 16px; line-height: 1.75; color: var(--text-secondary); }
 .faq-item p a { color: var(--blue-accent); }
 @media (max-width: 900px) { .faq-inner { grid-template-columns: 1fr; gap: 32px; } .faq-item summary { font-size: 16px; } }
+
+/* Bewertungen */
+.rating-link { display: inline-block; margin-top: 10px; font-size: 13px; color: var(--blue-accent); text-decoration: underline; text-underline-offset: 3px; }
+.reviews-grid { columns: 3 340px; column-gap: 28px; }
+.reviews-grid .testimonial-card { break-inside: avoid; margin-bottom: 28px; display: flex; width: 100%; }
+.reviews-grid .testimonial-card:hover { transform: none; }
+.reviews-note { margin-top: 24px; font-size: 13px; line-height: 1.6; color: var(--text-muted); max-width: 760px; }
